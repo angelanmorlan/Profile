@@ -1,0 +1,61 @@
+body {
+    ;
+    
+}
+.pimage{
+    position:relative;
+    width:auto;
+    height:100%;
+    float: left;
+    
+}
+/*@media (max-width: 750px){
+    body{
+        background:yellow;
+    }
+*/
+.leaves,.reflect,.tree{
+    display:inline-block;
+    position:relative;
+    width:auto;
+    height:30%;
+    float:left;
+
+}
+a{
+    text-decoration: none;
+    
+  
+}
+a{
+    font-size: 50px;
+    position:relative;
+    top: 140px;
+    left:80px; 
+}
+
+
+#head{
+    display:inline-block;
+    border-top:75px solid #ff9933; 
+    border-bottom:25px solid #ff9933;    
+    background-color:#ccffff;
+    font-family: 'Roboto', sans-serif;
+      
+    
+    
+}
+h2,p,li{
+    font-family: 'Roboto', sans-serif;
+    color:#993300;
+}
+
+#bio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color:#993300;
+    background: linear-gradient(bisque, transparent 160%), 
+                bisque url("../assets/Fall_leaves.jpg") repeat;
+    padding: 90px 170px 310px;
+}
+ 
