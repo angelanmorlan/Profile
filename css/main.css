@@ -36,9 +36,8 @@ header h1{
 }
 div img{
     width:auto;
-    height:100.5px;
+    height:17.5%;
 }
-
 
 h1,h2,p,li,.bio,a{
     font-family: 'Roboto', sans-serif;
@@ -114,9 +113,9 @@ a {
     top:0px;
     left:-200px;
 }
-    div img{
-    width:auto;
-    height:169px;
+     div img{
+        width:auto;
+        height:27.7%;
     }
     .book img{
     padding-left: 450px;
