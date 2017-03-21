@@ -49,8 +49,8 @@ header {
     
 }
 .top-photos{
-    display:inline;
-    max-width:60%;
+    display:inline-block;
+    width:60%;
     position:absolute;
     left:40%;
 }
