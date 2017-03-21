@@ -1,0 +1,278 @@
+html {
+    box-sizing: border-box;
+    margin:0 auto;
+}
+.clearfix::after{
+    content:"";
+}
+body {
+    max-width:100%;
+    margin:0 auto;
+     
+    
+}
+ h1{
+    
+    
+    
+    font-family: 'Roboto', sans-serif;
+    color:#993300;    
+    font-size: 2.5em;
+    max-width:100%;
+    display:inline-block;
+    position:relative;
+    padding-left:42%;
+    max-width: 100%;
+    padding-top:28%;
+    padding-bottom:5%;
+    
+  
+   
+    
+}
+header {
+    position:relative;
+    border-top:55px solid #ff9933;
+    background-color:#ccffff;
+    
+    
+    
+}
+
+
+
+
+.pimage{
+    display:inline-block;
+    max-width:40%;
+    position:absolute;
+    
+}
+.top-photos{
+    display:inline-block;
+    max-width:60%;
+    position:absolute;
+    left:40%;
+}
+}
+
+ol {
+    
+    position:absolute;
+    display:inline;
+    left:400px;
+    bottom:90px;
+    
+
+}
+
+
+    
+
+
+
+
+
+h2,p,li,.bio,a{
+    font-family: 'Roboto', sans-serif;
+    color:#993300;
+}
+
+.bio{
+    position:relative;
+    font-size: 1em;
+    background: linear-gradient(bisque, transparent 150%), 
+                bisque url("../assets/Fall_leaves.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-bottom:25px solid #ff9933;
+    border-top:25px solid #ff9933;
+    
+    
+    
+}
+.movies  {
+    background-color:#ccffff;
+    padding-top:10px;
+}
+
+.movies img{
+    height:14.5%;
+    width:auto;
+    padding-right: 10px;
+    padding-bottom: 20px;
+     
+}
+.movies, .book{
+    position:relative;
+    padding-left:50px;
+}
+
+ol{
+    position:relative;
+    padding-left: 50px;
+    padding-top:10px;
+    display:inline;
+    left:190px;
+    bottom:90px;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+.book p {
+    position:relative;
+    display:inline;
+    left:190px;
+    bottom:232px;
+    
+}
+.book {
+    position:relative;
+    background: linear-gradient(lightblue, transparent 150%), 
+                 lightblue url("../assets/Alaska.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-bottom:25px solid #ff9933;
+    border-top:25px solid #ff9933;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a {
+    position:absolute;
+    max-width:100%;
+    bottom:10%;
+    right:6%;
+    padding-left:9px;
+    font-size: .9em;
+}
+.book img{
+    position:relative;
+    left:23%;
+    top: 25%;
+    max-width:25%;
+
+}
+<!-- Media Queries-->
+@media (min-width:750){
+  
+}
+
+@media (min-width:1200px){
+    .clearfix::after{
+        content:"";
+    }
+    h1{
+        font-size: 4.8em;
+    }
+    .bio{
+        padding:50px 60px 50px 60px;
+        line-height:38px;
+        font-size:1.9em;
+    }
+    .movies img{
+        position:relative;
+        height:40%;
+        width:auto;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    ol {
+        position:relative;
+        padding-left: 50px;
+        padding-top:10px;
+        display:inline;
+        left:350px;
+        bottom:140px;
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+    h2 {
+        font-size: 2.4em;
+    }
+    .book{
+        position:relative;
+        padding-bottom:460px;
+    }
+
+  
+    .book img{
+        position:relative;
+        left:600px;
+    }
+  
+  
+
+    
+    .book p {
+        display:inline;
+        left:350px;
+        bottom:525px;
+        font-size: 1.4em;
+    }
+    a {
+        position:absolute;
+        bottom:20%;
+        right:6%;
+        font-size: 1.4em;
+         
+    }
+
+
+    
+
+
+@media (min-width:1690px){
+     .book{
+        padding-bottom:250px;
+    }
+      .book img{
+        position:relative;
+        left:800px;
+        max-width:25%;
+    }
+      a {
+        bottom:30%;
+        right:9%;
+        font-size: 1.6em;
+         
+    }
+      .book p {
+        display:inline;
+        position:relative;
+        left:350px;
+        bottom:582px;
+        font-size: 1.4em;
+    }
+      .movies img{
+        position:relative;
+        height:50%;
+        width:auto;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .bio{
+        font-size: 2.2em;
+        line-height:1.2em;
+    }
+    h1{
+        font-size: 6.5em;
+    }
+    
+}
+    @media (min-width:2170px){
+    .book{
+        padding-bottom:500px;
+    }
+    .book img{
+        position:relative;
+        left:1200px;
+        bottom:-160px;
+        max-width:25%;
+    }
+    .bio{
+        padding:60px 150px 60px 150px;
+    }
+    }
+
+
+ 
