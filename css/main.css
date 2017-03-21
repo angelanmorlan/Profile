@@ -49,7 +49,7 @@ header {
     
 }
 .top-photos{
-    display:inline-block;
+    display:inline;
     max-width:60%;
     position:absolute;
     left:40%;
